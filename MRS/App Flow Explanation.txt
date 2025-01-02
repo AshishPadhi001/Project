@@ -1,0 +1,13 @@
+App Flow Explanation
+Flow Steps:
+
+App starts with a title display in Streamlit.
+It loads data from vectorized_df.csv and bollywood_full.csv files.
+User decides whether to apply filters (Yes/No).
+If filters are applied, the app collects genre, rating, and review selections.
+User decides to provide a query or use the filter criteria as a query.
+A slider allows selecting the number of recommendations (1-10).
+Recommendations are generated using cosine similarity.
+Top recommendations are displayed as a list.
+User can select a movie for detailed information.
+The selected movie's details (e.g., title, actors, genre) are shown.
