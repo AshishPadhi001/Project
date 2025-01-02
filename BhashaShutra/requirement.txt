@@ -1,0 +1,13 @@
+streamlit
+base64
+string
+nltk
+pandas
+wordcloud
+matplotlib
+textblob
+langdetect
+scikit-learn
+python-docx
+seaborn
+PyPDF2
