@@ -4,9 +4,9 @@ from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 # Load the CSV files
-vectorized_df = pd.read_csv("vectorized_df.csv")
-bollywood_full = pd.read_csv("bollywood_full.csv")
-movies_refined = pd.read_csv("movies_refined.csv")
+vectorized_df = pd.read_csv("MRS/vectorized_df.csv")
+bollywood_full = pd.read_csv("MRS/bollywood_full.csv")
+movies_refined = pd.read_csv("MRS/movies_refined.csv")
 
 def main():
     st.markdown("## 🎥 Welcome to **Movie Lens** 🎬")  
